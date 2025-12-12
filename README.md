@@ -1,10 +1,10 @@
-# Calculator Application with Python GUI and C++ Backend
+# Calculator Application with Python and C++ 
 
-## 📋 Project Overview
+##  Project Overview
 
 This is a **distributed calculator application** that demonstrates a clean separation between user interface and computation logic. The Python frontend provides a modern, responsive graphical interface, while the C++ backend handles all mathematical calculations, history management, and file operations.
 
-## 🏗️ Architecture Diagram
+##  Architecture Diagram
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -52,7 +52,7 @@ This is a **distributed calculator application** that demonstrates a clean separ
 └─────────────────────────────────────────────────────────┘
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 calculator_app/
@@ -70,9 +70,9 @@ calculator_app/
 └── requirements.txt           # Python dependencies
 ```
 
-## ✨ Features
+##  Features
 
-### 🎨 Python GUI Features:
+###  Python GUI Features:
 - Modern, responsive user interface with Tkinter
 - Both basic and scientific calculator modes
 - Real-time history display
@@ -81,7 +81,7 @@ calculator_app/
 - Connection status indicator
 - Error message popups
 
-### ⚡ C++ Backend Features:
+###  C++ Features:
 - High-performance mathematical calculations
 - Support for basic arithmetic (+, -, *, /, %)
 - Scientific functions (sin, cos, tan, log, sqrt, etc.)
@@ -90,13 +90,13 @@ calculator_app/
 - Error handling and validation
 - TCP/IP socket server
 
-### 🔄 Communication Features:
+###  Communication Features:
 - TCP socket-based client-server architecture
 - Simple text-based protocol
 - Bidirectional communication
 - Automatic reconnection capability
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 
@@ -159,7 +159,7 @@ cd frontend
 python calculator_gui.py
 ```
 
-## 🖥️ User Interface Guide
+##  User Interface Guide
 
 ### Main Interface Components:
 
@@ -194,7 +194,7 @@ python calculator_gui.py
 - **Backspace**: Delete last character
 - **Period (.)**: Decimal point
 
-## 📡 Communication Protocol
+##  Communication Protocol
 
 ### Command Format:
 ```
@@ -264,9 +264,9 @@ SUCCESS|Memory Recall|42.5|               # Memory operation
 SUCCESS|History|5|2+3=5;4*5=20;...        # History data
 ```
 
-## 🔧 Technical Details
+##  Technical Details
 
-### C++ Backend Design:
+### C++ Design:
 
 **Classes:**
 1. **Calculator**: Core mathematical operations
@@ -295,7 +295,7 @@ SUCCESS|History|5|2+3=5;4*5=20;...        # History data
 - Socket communication events
 - Window management events
 
-## 🧪 Testing the Application
+##  Testing the Application
 
 ### Manual Test Cases:
 
@@ -320,7 +320,7 @@ SUCCESS|History|5|2+3=5;4*5=20;...        # History data
    - Click "View History" → Should show all calculations
    - Click "Clear History" → Should clear history
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues:
 
@@ -355,7 +355,7 @@ To enable debug logging:
 **C++ Backend:** Add `-DDEBUG` flag in CMakeLists.txt
 **Python GUI:** Uncomment print statements in `send_command()` method
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 - **Calculation Speed**: < 1ms for basic operations
 - **Memory Usage**: ~10MB for GUI, ~5MB for backend
@@ -363,7 +363,7 @@ To enable debug logging:
 - **History Storage**: Supports up to 1000 entries
 - **Network Latency**: < 5ms for local communication
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features:
 1. **Advanced Functions**
@@ -390,7 +390,7 @@ To enable debug logging:
    - Mobile app version
    - Desktop installer packages
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -405,18 +405,18 @@ To enable debug logging:
 - Write unit tests for new features
 - Update documentation accordingly
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Tkinter for Python GUI framework
 - C++ Standard Library for mathematical functions
 - TCP/IP protocol for inter-process communication
 - Open source community for inspiration and tools
 
-## 📞 Support
+##  Support
 
 For issues, questions, or suggestions:
 1. Check the Troubleshooting section above
@@ -426,6 +426,6 @@ For issues, questions, or suggestions:
 
 ---
 
-**Happy Calculating!** 🧮
+**Happy Calculating!** 
 
 *This project demonstrates the power of combining Python's rapid GUI development with C++'s computational efficiency in a distributed architecture.*

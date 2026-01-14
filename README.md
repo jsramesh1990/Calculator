@@ -1,5 +1,32 @@
 # Calculator Application with Python and C++ 
 
+[![Python](https://img.shields.io/badge/Python-Frontend-blue.svg)](https://python.org)
+[![C++](https://img.shields.io/badge/C++-Backend-orange.svg)](https://isocpp.org/)
+[![GUI Application](https://img.shields.io/badge/GUI-Application-green.svg)](https://en.wikipedia.org/wiki/Graphical_user_interface)
+[![Distributed System](https://img.shields.io/badge/Distributed-Application-red.svg)](https://en.wikipedia.org/wiki/Distributed_computing)
+[![Calculator](https://img.shields.io/badge/Scientific-Calculator-yellow.svg)](https://en.wikipedia.org/wiki/Calculator)
+[![PyQt/Tkinter](https://img.shields.io/badge/PyQt-Tkinter-purple.svg)](https://en.wikipedia.org/wiki/PyQt)
+[![Multi-Language](https://img.shields.io/badge/Multi--Language-Integration-8b0000.svg)](https://en.wikipedia.org/wiki/Multi-language_programming)
+[![File Operations](https://img.shields.io/badge/File-Operations-0066cc.svg)](https://en.wikipedia.org/wiki/File_system)
+[![History Management](https://img.shields.io/badge/History-Management-lightgrey.svg)](https://en.wikipedia.org/wiki/History_(command))
+[![Cross-Platform](https://img.shields.io/badge/Cross--Platform-Desktop-ff69b4.svg)](https://en.wikipedia.org/wiki/Cross-platform_software)
+[![Mathematical Computation](https://img.shields.io/badge/Mathematical-Computation-009688.svg)](https://en.wikipedia.org/wiki/Computation)
+[![Client-Server Architecture](https://img.shields.io/badge/Client--Server-Architecture-blueviolet.svg)](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+[![Responsive Design](https://img.shields.io/badge/Responsive-UI-32CD32.svg)](https://en.wikipedia.org/wiki/Responsive_web_design)
+[![Modern Interface](https://img.shields.io/badge/Modern-Interface-FF8C00.svg)](https://en.wikipedia.org/wiki/User_interface)
+[![Educational Project](https://img.shields.io/badge/Educational-Project-181717.svg)](https://en.wikipedia.org/wiki/Educational_software)
+[![Calculation Engine](https://img.shields.io/badge/Calculation-Engine-333333.svg)](https://en.wikipedia.org/wiki/Engine)
+[![Data Persistence](https://img.shields.io/badge/Data-Persistence-brightgreen.svg)](https://en.wikipedia.org/wiki/Persistence_(computer_science))
+[![Memory Management](https://img.shields.io/badge/Memory-Management-4B0082.svg)](https://en.wikipedia.org/wiki/Memory_management)
+[![Modular Design](https://img.shields.io/badge/Modular-Design-800000.svg)](https://en.wikipedia.org/wiki/Modular_programming)
+[![Performance Optimized](https://img.shields.io/badge/Performance-Optimized-2E8B57.svg)](https://en.wikipedia.org/wiki/Program_optimization)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Calculator-483D8B.svg)](https://opensource.org/)
+[![Scientific Functions](https://img.shields.io/badge/Scientific-Functions-8A2BE2.svg)](https://en.wikipedia.org/wiki/Scientific_calculator)
+[![Unit Testing](https://img.shields.io/badge/Unit-Testing-DAA520.svg)](https://en.wikipedia.org/wiki/Unit_testing)
+[![Build Automation](https://img.shields.io/badge/Build-Automation-2F4F4F.svg)](https://en.wikipedia.org/wiki/Build_automation)
+[![Event-Driven](https://img.shields.io/badge/Event--Driven-Architecture-FF4500.svg)](https://en.wikipedia.org/wiki/Event-driven_programming)
+[![Error Handling](https://img.shields.io/badge/Robust-Error%20Handling-00CED1.svg)](https://en.wikipedia.org/wiki/Exception_handling)
+
 ##  Project Overview
 
 This is a **distributed calculator application** that demonstrates a clean separation between user interface and computation logic. The Python frontend provides a modern, responsive graphical interface, while the C++ backend handles all mathematical calculations, history management, and file operations.
